@@ -1,0 +1,210 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[a4paper,bindingoffset=0in,%
+            left=0.5in,right=0.5in,top=1in,bottom=2in,%
+            footskip=.25in]{geometry}
+\usepackage[brazil,english]{babel}
+%\usepackage[utf8]{inputenc}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lipsum}%% a garbage package you don't need except to create examples.
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{makecell}
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage{blindtext}
+\usepackage{amsmath}
+\usepackage{changepage}
+\usepackage{tikz} % pra fazer conta com variavel
+\usepackage{xintexpr} % pra fazer conta com decimal
+\usepackage{caption}
+\usepackage{tocloft}
+\usepackage{etoolbox}
+\usepackage{pdfpages} % para incluir pdfs
+\usepackage{refcount}
+
+\cftsetpnumwidth{1.0cm}
+
+\renewcommand{\cftsecdotsep}{\cftdotsep}
+\renewcommand{\cftsecleader}{\normalfont\cftdotfill{\cftsecdotsep}}
+
+
+\renewcommand{\baselinestretch}{1.5}
+
+\addto\captionsbrazil{%
+	\renewcommand{\contentsname}%
+		{Sumário Relatório Descritivo}
+}
+
+\addto\captionsenglish{%
+	\renewcommand{\contentsname}%
+		{Sumário Relatório Descritivo}
+}
+
+\pagestyle{fancy}
+
+\makeatletter
+\newcommand\Rodape[1]{\def\@Rodape{#1}}
+
+\fancyhead[LE,LO]{}
+\fancyhead[CE,CO]{}
+\fancyhead[RE,RO]{}
+\fancyhead[LE,LO]{\includegraphics[width=5cm]{logo_ifsudeste.jpg}\hfill\includegraphics[width=2cm]{brasao-brasil.png}\\{\large \textbf{FORMULÁRIOS RECONHECIMENTO DE SABERES E COMPETÊNCIAS – RSC}}}
+\setlength\headheight{80pt}
+%\renewcommand{\headrulewidth}{0pt}
+%\renewcommand{\headrulewidth}{0.4pt}
+%\renewcommand{\footrulewidth}{0.4pt}
+
+\fancyfoot{}
+% numeracao a direita
+\Rodape{\thepage}
+\fancyfoot[R]{\@Rodape}
+
+% para o fancy funcionar na pagina com tableofcontents
+\fancypagestyle{plain}{%
+	\fancyhf{}
+	\fancyhead[LE,LO]{}
+	\fancyhead[CE,CO]{}
+	\fancyhead[RE,RO]{}
+	\fancyhead[LE,LO]{\includegraphics[width=5cm]{logo_ifsudeste.jpg}\hfill\includegraphics[width=2cm]{brasao-brasil.png}\\{\large 					\textbf{FORMULÁRIOS RECONHECIMENTO DE SABERES E COMPETÊNCIAS – RSC}}}
+	\setlength\headheight{80pt}
+	%\renewcommand{\headrulewidth}{0pt}
+	%\renewcommand{\headrulewidth}{0.4pt}
+	%\renewcommand{\footrulewidth}{0.4pt}
+	\fancyfoot{}
+	\fancyfoot[R]{\@Rodape}
+}
+
+% para o fancy funcionar na pagina com tableofcontents
+\fancypagestyle{plainpdf}{%
+	\fancyhf{}
+	\renewcommand{\headrulewidth}{0pt}
+	\fancyfoot{}
+	\fancyfoot[R]{\@Rodape}
+}
+
+\newcommand{\nada}{
+	{\color{white}NADA}
+}
+
+\begin{document}
+
+\pagenumbering{roman} % bota a numeracao de pagina em romano
+
+\include{rsc-variaveis-funcoes}
+
+\include{rsc-dados}% Não esqueça de preencher esse arquivo
+
+\include{rsc-anexo-i}
+
+\include{rsc-anexo-ii}
+
+\include{rsc-sumario-processo}
+
+\label{antes-relatorio-descritivo}
+\include{rsc-relatorio-descritivo}
+
+% Inicio conteudo relatorio descritivo
+\pagenumbering{arabic}
+\setcounter{page}{1}
+\Rodape{Relatório Descritivo \hfill \pageref{relatorio-descritivo}.\thepage}
+
+\include{rsc-relatorio-descritivo-sumario}
+
+\include{rsc-descricao-itinerario-formacao-titulacao}
+
+\include{rsc-descricao-atuacao-docente}
+
+\include{rsc-indicacao-descricao-producao-academica}
+
+\include{rsc-descricao-atividades-prestacao-servico}
+
+\include{rsc-indicacao-descricao-atividade-administracao}
+
+\include{rsc-indicacao-titulos-premios-aprovacoes}
+
+\include{empty/antes-documentacao-probatoria-formacao}
+
+\Rodape{\thepage}
+\pagenumbering{roman}
+\setcounter{page}{6}
+% Fim conteudo relatorio descritivo
+
+
+\include{rsc-documentacao-probatoria-formacao}
+
+% Inicio conteudo documentacao probatoria de formacao
+\pagenumbering{arabic}
+\setcounter{page}{1}
+\Rodape{\pageref{documentacao-probatoria-formacao}.\thepage}
+
+% \include com documentos probatorios da formacao
+
+%\includepdf[pages=-, pagecommand={\thispagestyle{plainpdf}}]{certificado.pdf}
+
+\include{empty/antes-documentacao-probatoria-rsc-i}
+
+\Rodape{\thepage}
+\pagenumbering{roman}
+\setcounter{page}{7}
+% Fim conteudo documentacao probatoria de formacao
+
+
+\include{rsc-documentacao-probatoria-rsc-i}
+
+% Inicio conteudo documentacao probatoria RSC-I
+\pagenumbering{arabic}
+\setcounter{page}{1}
+\Rodape{\pageref{documentacao-probatoria-rsc-i}.\thepage}
+
+% \include com documentacao probatorio do RSC-I
+
+%\includepdf[pages=-, pagecommand={\thispagestyle{plainpdf}}]{certificado.pdf}
+
+\include{empty/antes-documentacao-probatoria-rsc-ii}
+
+\Rodape{\thepage}
+\pagenumbering{roman}
+\setcounter{page}{8}
+% Fim conteudo documentacao probatoria RSC-I
+
+
+\include{rsc-documentacao-probatoria-rsc-ii}
+
+% Inicio conteudo documentacao probatoria RSC-II
+\pagenumbering{arabic}
+\setcounter{page}{1}
+\Rodape{\pageref{documentacao-probatoria-rsc-ii}.\thepage}
+
+% \include com documentacao probatorio do RSC-II
+
+%\includepdf[pages=-, pagecommand={\thispagestyle{plainpdf}}]{certificado.pdf}
+
+\include{empty/antes-documentacao-probatoria-rsc-iii}
+
+\Rodape{\thepage}
+\pagenumbering{roman}
+\setcounter{page}{9}
+% Fim conteudo documentacao probatoria RSC-II
+
+
+\include{rsc-documentacao-probatoria-rsc-iii}
+
+% Inicio conteudo documentacao probatoria RSC-III
+\pagenumbering{arabic}
+\setcounter{page}{1}
+\Rodape{\pageref{documentacao-probatoria-rsc-iii}.\thepage}
+
+% \include com documentacao probatorio do RSC-III
+
+%\includepdf[pages=-, pagecommand={\thispagestyle{plainpdf}}]{certificado.pdf}
+
+\include{empty/fim-documento}
+
+\Rodape{\thepage}
+\pagenumbering{roman}
+\setcounter{page}{10}
+% Fim conteudo documentacao probatoria RSC-III
+
+\end{document}

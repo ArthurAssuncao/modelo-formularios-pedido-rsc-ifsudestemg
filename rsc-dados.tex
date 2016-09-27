@@ -1,0 +1,78 @@
+% define valor para variaveis
+\nomeservidor{Servidor fulano de tal}
+\datanascimento{aa/mm/aaaa}
+\siape{1111111}
+\email{email@ifsudestemg.edu.br}
+\nivel{01}
+\classe{D1}
+\dataingressoservicopublico{dd/mm/aaaa}
+\dataingressoif{dd/mm/aaaa}
+\formacao{Graduação em Latex\\Mestrado em desenvolvimento de modelos em Latex}
+\tempoefetivoexercicio{N meses}
+\rscpretendida{3}
+\cpf{111.111.111-11}
+\instituicao{Instituto Federal de Educação, Ciência e Tecnologia do Sudeste de Minas}
+\campus{Santos Dumont}
+
+% preenche os valores das pontuacoes
+% RSC-I
+\rscipontosi{0.25}
+\rscipontosii{1}
+\rscipontosiii{2}
+\rscipontosiv{3}
+\rscipontosv{4}
+\rscipontosvi{5}
+\rscipontosvii{6}
+\rscipontosviii{7}
+\pgfmathsetmacro{\rscipontostotal}{
+	\the\rscipontosi +
+	\the\rscipontosii +
+	\the\rscipontosiii +
+	\the\rscipontosvi +
+	\the\rscipontosv +
+	\the\rscipontosvi +
+	\the\rscipontosvii +
+	\the\rscipontosviii
+}
+
+% RSC-II
+\rsciipontosi{0}
+\rsciipontosii{1}
+\rsciipontosiii{2}
+\rsciipontosiv{3}
+\rsciipontosv{4}
+\rsciipontosvi{5}
+\rsciipontosvii{6}
+\pgfmathsetmacro{\rsciipontostotal}{
+	\the\rsciipontosi +
+	\the\rsciipontosii +
+	\the\rsciipontosiii +
+	\the\rsciipontosvi +
+	\the\rsciipontosv +
+	\the\rsciipontosvi +
+	\the\rsciipontosvii
+}
+
+% RSC-III
+\rsciiipontosi{0}
+\rsciiipontosii{1}
+\rsciiipontosiii{2}
+\rsciiipontosiv{3}
+\rsciiipontosv{4}
+\rsciiipontosvi{5}
+\rsciiipontosvii{6}
+\pgfmathsetmacro{\rsciiipontostotal}{
+	\the\rsciiipontosi +
+	\the\rsciiipontosii +
+	\the\rsciiipontosiii +
+	\the\rsciiipontosvi +
+	\the\rsciiipontosv +
+	\the\rsciiipontosvi +
+	\the\rsciiipontosvii
+}
+
+\pgfmathsetmacro{\rscpontostotal}{
+	\rscipontostotal +
+	\rsciipontostotal +
+	\rsciiipontostotal
+}

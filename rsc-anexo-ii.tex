@@ -1,0 +1,118 @@
+\begin{center}
+\textbf{{\large ANEXO II - FORMULÁRIO INDICATIVO DE PONTUAÇÃO RSCs}}
+\end{center}
+%
+% Tabela
+%
+\begin{table}[ht]
+	\centering
+	%\begin{adjustwidth}{-0.18in}{}
+	\begin{tabular}{|l|}
+		\hline
+		\makebox[1\textwidth]{\makecell[l]{Nome do servidor:\\\the\nomeservidor} \hfill \makecell[l]{Data de Nascimento:\\\the\datanascimento}}\\
+		\hline
+		\makebox[1\textwidth]{
+			\makecell[l]{SIAPE:\\\the\siape} \hfill \makecell[l]{Classe:\\\the\classe}
+			\hfill \makecell[l]{Nível:\\\the\nivel}
+		}\\
+		\hline
+		\makebox[1\textwidth]{\makecell[l]{RSC pretendida:}
+			\makecell[l]{(\ifnum\the\rscpretendida=1 \underline{X}\else \underline{\hspace{0.1in}}\fi) RSC I} \hfill
+			\makecell[l]{(\ifnum\the\rscpretendida=2 \underline{X}\else \underline{\hspace{0.1in}}\fi) RSC II} \hfill
+			\makecell[l]{(\ifnum\the\rscpretendida=3 \underline{X}\else \underline{\hspace{0.1in}}\fi) RSC III}
+		}\\
+		\hline
+	\end{tabular}
+	%\end{adjustwidth}	
+\end{table}
+
+Eu \textbf{\underline{\the\nomeservidor}}, professor da carreira de Ensino Básico, Técnico e Tecnológico (EBTT), SIAPE \textbf{\underline{\the\siape}}, CPF \textbf{\underline{\the\cpf}}, após realização de retrospecto das minhas atividades profissionais e do arrolamento de dados preenchidos apresento à Comissão Especial de Avaliação de RSC o quadro abaixo sintetizando a pontuação obtida com minhas atividades.
+\\
+\begin{table}[ht]
+	\centering
+	\caption*{RSC I - Resumo das atividades desempenhadas}
+	\begin{tabular}{|c|c|c|c|}
+		\hline
+		Diretriz & \makecell{Pontuação Obtida} & Peso & \makecell{Pontuação Máxima}\\
+		\hline
+		I & \xintifboolexpr{\the\rscipontosi < 10} {\the\rscipontosi} {10} & 1 & 10\\
+		\hline
+		II & \xintifboolexpr{\the\rscipontosii < 10} {\the\rscipontosii} {10} & 1 & 10\\
+		\hline
+		III & \xintifboolexpr{\the\rscipontosiii < 30} {\the\rscipontosiii} {30} & 1 & 30\\
+		\hline
+		IV & \xintifboolexpr{\the\rscipontosiv < 10} {\the\rscipontosiv} {10} & 1 & 10\\
+		\hline
+		V & \xintifboolexpr{\the\rscipontosv < 10} {\the\rscipontosv} {10} & 1 & 10\\
+		\hline
+		VI & \xintifboolexpr{\the\rscipontosvi < 10} {\the\rscipontosvi} {10} & 1 & 10\\
+		\hline
+		VII & \xintifboolexpr{\the\rscipontosvii < 10} {\the\rscipontosvii} {10} & 1 & 10\\
+		\hline
+		VIII & \xintifboolexpr{\the\rscipontosviii < 10} {\the\rscipontosviii} {10} & 1 & 10\\
+		\hline
+		\textbf{Total} & \xintifboolexpr{\rscipontostotal < 100} {\textbf{\rscipontostotal}} {\textbf{100}} & \textbf{-} & \textbf{100}\\
+		\hline
+	\end{tabular}
+\end{table}
+
+\newpage
+
+\begin{table}[ht!p]
+	\centering
+	\caption*{RSC II - Descrição sucinta das atividades desempenhadas}
+	\begin{tabular}{|c|c|c|c|}
+		\hline
+		Diretriz & \makecell{Pontuação Obtida} & Peso & \makecell{Pontuação Máxima}\\
+		\hline
+		I & \xintifboolexpr{\the\rsciipontosi < 20} {\the\rsciipontosi} {20} & 2 & 20\\
+		\hline
+		II & \xintifboolexpr{\the\rsciipontosii < 10} {\the\rsciipontosii} {10} & 1 & 10\\
+		\hline
+		III & \xintifboolexpr{\the\rsciipontosiii < 10} {\the\rsciipontosiii} {10} & 1 & 10\\
+		\hline
+		IV & \xintifboolexpr{\the\rsciipontosiv < 20} {\the\rsciipontosiv} {20} & 2 & 20\\
+		\hline
+		V & \xintifboolexpr{\the\rsciipontosv < 10} {\the\rsciipontosv} {10} & 1 & 10\\
+		\hline
+		VI & \xintifboolexpr{\the\rsciipontosvi < 20} {\the\rsciipontosvi} {20} & 2 & 20\\
+		\hline
+		VII & \xintifboolexpr{\the\rsciipontosvii < 10} {\the\rsciipontosvii} {10} & 1 & 10\\
+		\hline
+		\textbf{Total} & \xintifboolexpr{\rsciipontostotal < 100} {\textbf{\rsciipontostotal}} {\textbf{100}} & \textbf{-} & \textbf{100}\\
+		\hline
+	\end{tabular}
+\end{table}
+
+\begin{table}[ht!p]
+	\centering
+	\caption*{RSC III - Descrição sucinta das atividades desempenhadas}
+	\begin{tabular}{|c|c|c|c|}
+		\hline
+		Diretriz & \makecell{Pontuação Obtida} & Peso & \makecell{Pontuação Máxima}\\
+		\hline
+		I & \xintifboolexpr{\the\rsciiipontosi < 10} {\the\rsciiipontosi} {10} & 1 & 10\\
+		\hline
+		II & \xintifboolexpr{\the\rsciiipontosii < 20} {\the\rsciiipontosii} {20} & 2 & 20\\
+		\hline
+		III & \xintifboolexpr{\the\rsciiipontosiii < 20} {\the\rsciiipontosiii} {20} & 2 & 20\\
+		\hline
+		IV & \xintifboolexpr{\the\rsciiipontosiv < 10} {\the\rsciiipontosiv} {10} & 1 & 10\\
+		\hline
+		V & \xintifboolexpr{\the\rsciiipontosv < 10} {\the\rsciiipontosv} {10} & 1 & 10\\
+		\hline
+		VI & \xintifboolexpr{\the\rsciiipontosvi < 10} {\the\rsciiipontosvi} {10} & 1 & 10\\
+		\hline
+		VII & \xintifboolexpr{\the\rsciiipontosvii < 20} {\the\rsciiipontosvii} {20} & 2 & 20\\
+		\hline
+		\textbf{Total} & \xintifboolexpr{\rsciiipontostotal < 100} {\textbf{\rsciiipontostotal}} {\textbf{100}} & \textbf{-} & \textbf{100}\\
+		\hline
+	\end{tabular}
+\end{table}
+
+Em síntese, a pontuação obtida no nível RSC pretendido foi \rsciiipontostotal \space pontos e a pontuação total obtida foi \rscpontostotal \space pontos.
+\\
+Data: \underline{\hspace{0.3in}} / \underline{\hspace{0.3in}} / \underline{\hspace{0.3in}}
+\\
+\underline{\hspace{5in}}\\
+Assinatura do Servidor Requerente
