@@ -10,7 +10,7 @@ Este modelo em Tex foi desenvolvido por **Arthur Nascimento Assuncao**, servidor
 ## Motivação
 A motivação foi facilitar o preenchimento do pedido, automatizando algumas tarefas e evitar preenchimento não-digital, como: 
 
-* Preenchimento automático das informações do servidor com base em um arquivo separado (rsc-dados.tex)
+* Preenchimento automático das informações do servidor e da sua pontuação com base em um arquivo separado (rsc-dados.tex)
 * Inclusão de certificados com indicação da pontuação no topo da página (e.g. \incluirpdf{-}{RSC I - 11}{pdfs/certificado.pdf})
 * Páginação com números romanos para seções e arábico dentro das seções (e.g. vi.2)
 * Marcação de intervalo de seção (e.g. Relatório descritivo: v.1 até v.8)
