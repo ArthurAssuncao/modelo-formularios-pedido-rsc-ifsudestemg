@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.8)  27 SEP 2016 19:23
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.8)  29 SEP 2016 23:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -607,54 +607,66 @@ File: pppdftex.def 2013/08/25 v0.4v Pdfpages driver for pdfTeX (AM)
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/refcount.sty
 Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
 )
+(/usr/share/texlive/texmf-dist/tex/latex/hyphenat/hyphenat.sty
+Package: hyphenat 2009/09/02 v2.3c hyphenation utilities
+\langwohyphens=\language79
+LaTeX Info: Redefining \_ on input line 43.
+)
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 50.
-
-
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 51.
-
-
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 52.
+less on input line 56.
 
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 53.
+less on input line 57.
 
-(./rsc.aux (./rsc-variaveis-funcoes.aux) (./rsc-dados.aux) (./rsc-anexo-i.aux)
-(./rsc-anexo-ii.aux) (./rsc-sumario-processo.aux)
-(./rsc-relatorio-descritivo.aux) (./rsc-relatorio-descritivo-sumario.aux)
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 58.
+
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 59.
+
+(./rsc.aux (./nao-editar/rsc-variaveis-funcoes.aux) (./rsc-dados.aux)
+(./nao-editar/rsc-anexo-i.aux) (./nao-editar/rsc-anexo-ii.aux)
+(./nao-editar/rsc-sumario-processo.aux)
+(./nao-editar/rsc-relatorio-descritivo.aux)
+(./nao-editar/rsc-relatorio-descritivo-sumario.aux)
 (./rsc-descricao-itinerario-formacao-titulacao.aux)
 (./rsc-descricao-atuacao-docente.aux)
 (./rsc-indicacao-descricao-producao-academica.aux)
 (./rsc-descricao-atividades-prestacao-servico.aux)
 (./rsc-indicacao-descricao-atividade-administracao.aux)
 (./rsc-indicacao-titulos-premios-aprovacoes.aux)
-(./empty/antes-documentacao-probatoria-formacao.aux)
-(./rsc-documentacao-probatoria-formacao.aux)
-(./empty/antes-documentacao-probatoria-rsc-i.aux)
-(./rsc-documentacao-probatoria-rsc-i.aux)
-(./empty/antes-documentacao-probatoria-rsc-ii.aux)
-(./rsc-documentacao-probatoria-rsc-ii.aux)
-(./empty/antes-documentacao-probatoria-rsc-iii.aux)
-(./rsc-documentacao-probatoria-rsc-iii.aux) (./empty/fim-documento.aux))
+(./nao-editar/empty/antes-documentacao-probatoria-formacao.aux)
+(./nao-editar/rsc-documentacao-probatoria-formacao.aux)
+(./rsc-documentacao-probatoria-formacao-comprovantes.aux)
+(./nao-editar/empty/antes-documentacao-probatoria-rsc-i.aux)
+(./nao-editar/rsc-documentacao-probatoria-rsc-i.aux)
+(./rsc-documentacao-probatoria-rsc-i-comprovantes.aux)
+(./nao-editar/empty/antes-documentacao-probatoria-rsc-ii.aux)
+(./nao-editar/rsc-documentacao-probatoria-rsc-ii.aux)
+(./rsc-documentacao-probatoria-rsc-ii-comprovantes.aux)
+(./nao-editar/empty/antes-documentacao-probatoria-rsc-iii.aux)
+(./nao-editar/rsc-documentacao-probatoria-rsc-iii.aux)
+(./rsc-documentacao-probatoria-rsc-iii-comprovantes.aux)
+(./nao-editar/empty/fim-documento.aux))
 \openout1 = `rsc.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Try loading font information for T1+phv on input line 91.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 111.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
@@ -679,7 +691,7 @@ File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 * \headheight=80.0pt
 * \headsep=25.0pt
 * \topskip=12.0pt
-* \footskip=18.06749pt
+* \footskip=36.135pt
 * \marginparwidth=35.0pt
 * \marginparsep=10.0pt
 * \columnsep=10.0pt
@@ -757,9 +769,9 @@ ABD: EveryShipout initializing macros
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box40
-\openout2 = `rsc-variaveis-funcoes.aux'.
+\openout2 = `nao-editar/rsc-variaveis-funcoes.aux'.
 
- (./rsc-variaveis-funcoes.tex
+ (./nao-editar/rsc-variaveis-funcoes.tex
 \nomeservidor=\toks41
 \datanascimento=\toks42
 \siape=\toks43
@@ -803,9 +815,9 @@ Package caption Info: End \AtBeginDocument code.
 
 
 (./rsc-dados.tex)
-\openout2 = `rsc-anexo-i.aux'.
+\openout2 = `nao-editar/rsc-anexo-i.aux'.
 
- (./rsc-anexo-i.tex
+ (./nao-editar/rsc-anexo-i.tex
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 2.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14.4> not available
@@ -839,16 +851,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 42--51
 
  []
 
-) <logo_ifsudeste.jpg, id=4, 136.8312pt x 56.8524pt>
-File: logo_ifsudeste.jpg Graphic file (type jpg)
- <use logo_ifsudeste.jpg>
-Package pdftex.def Info: logo_ifsudeste.jpg used on input line 99.
+) <nao-editar/logo_ifsudeste.jpg, id=4, 136.8312pt x 56.8524pt>
+File: nao-editar/logo_ifsudeste.jpg Graphic file (type jpg)
+
+<use nao-editar/logo_ifsudeste.jpg>
+Package pdftex.def Info: nao-editar/logo_ifsudeste.jpg used on input line 119.
 (pdftex.def)             Requested size: 142.26378pt x 59.11034pt.
 
-<brasao-brasil.png, id=5, 396.48125pt x 397.485pt>
-File: brasao-brasil.png Graphic file (type png)
- <use brasao-brasil.png>
-Package pdftex.def Info: brasao-brasil.png used on input line 99.
+<nao-editar/brasao-brasil.png, id=5, 396.48125pt x 397.485pt>
+File: nao-editar/brasao-brasil.png Graphic file (type png)
+
+<use nao-editar/brasao-brasil.png>
+Package pdftex.def Info: nao-editar/brasao-brasil.png used on input line 119.
 (pdftex.def)             Requested size: 56.9055pt x 57.04855pt.
 
 (/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-32.def
@@ -860,10 +874,10 @@ File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
 
 
 
- <./logo_ifsudeste.jpg> <./brasao-brasil.png>]
-\openout2 = `rsc-anexo-ii.aux'.
+ <./nao-editar/logo_ifsudeste.jpg> <./nao-editar/brasao-brasil.png>]
+\openout2 = `nao-editar/rsc-anexo-ii.aux'.
 
- (./rsc-anexo-ii.tex
+ (./nao-editar/rsc-anexo-ii.tex
 Overfull \hbox (12.8pt too wide) in paragraph at lines 10--27
  [][] 
  []
@@ -874,31 +888,32 @@ Overfull \hbox (7.89447pt too wide) in paragraph at lines 29--58
 e Tec-nológico (EBTT),
  []
 
-File: logo_ifsudeste.jpg Graphic file (type jpg)
-<use logo_ifsudeste.jpg>
-Package pdftex.def Info: logo_ifsudeste.jpg used on input line 59.
+File: nao-editar/logo_ifsudeste.jpg Graphic file (type jpg)
+<use nao-editar/logo_ifsudeste.jpg>
+Package pdftex.def Info: nao-editar/logo_ifsudeste.jpg used on input line 59.
 (pdftex.def)             Requested size: 142.26378pt x 59.11034pt.
-File: brasao-brasil.png Graphic file (type png)
- <use brasao-brasil.png>
-Package pdftex.def Info: brasao-brasil.png used on input line 59.
+File: nao-editar/brasao-brasil.png Graphic file (type png)
+ <use nao-editar/brasao-brasil.png>
+Package pdftex.def Info: nao-editar/brasao-brasil.png used on input line 59.
 (pdftex.def)             Requested size: 56.9055pt x 57.04855pt.
  [2
 
 
 ])
-File: logo_ifsudeste.jpg Graphic file (type jpg)
- <use logo_ifsudeste.jpg>
-Package pdftex.def Info: logo_ifsudeste.jpg used on input line 101.
-(pdftex.def)             Requested size: 142.26378pt x 59.11034pt.
-File: brasao-brasil.png Graphic file (type png)
+File: nao-editar/logo_ifsudeste.jpg Graphic file (type jpg)
 
-<use brasao-brasil.png>
-Package pdftex.def Info: brasao-brasil.png used on input line 101.
+<use nao-editar/logo_ifsudeste.jpg>
+Package pdftex.def Info: nao-editar/logo_ifsudeste.jpg used on input line 121.
+(pdftex.def)             Requested size: 142.26378pt x 59.11034pt.
+File: nao-editar/brasao-brasil.png Graphic file (type png)
+ <use nao-editar/brasao-brasil.png>
+Package pdftex.def Info: nao-editar/brasao-brasil.png used on input line 121.
 (pdftex.def)             Requested size: 56.9055pt x 57.04855pt.
  [3]
-\openout2 = `rsc-sumario-processo.aux'.
+\openout2 = `nao-editar/rsc-sumario-processo.aux'.
 
- (./rsc-sumario-processo.tex
+
+(./nao-editar/rsc-sumario-processo.tex
 LaTeX Font Info:    Font shape `T1/phv/bx/it' in size <12> not available
 (Font)              Font shape `T1/phv/b/it' tried instead on input line 2.
 LaTeX Font Info:    Font shape `T1/phv/b/it' in size <12> not available
@@ -908,69 +923,70 @@ LaTeX Font Info:    Font shape `T1/phv/bx/it' in size <14.4> not available
 LaTeX Font Info:    Font shape `T1/phv/b/it' in size <14.4> not available
 (Font)              Font shape `T1/phv/b/sl' tried instead on input line 2.
 )
-File: logo_ifsudeste.jpg Graphic file (type jpg)
-
-<use logo_ifsudeste.jpg>
-Package pdftex.def Info: logo_ifsudeste.jpg used on input line 103.
+File: nao-editar/logo_ifsudeste.jpg Graphic file (type jpg)
+ <use nao-editar/logo_ifsudeste.jpg>
+Package pdftex.def Info: nao-editar/logo_ifsudeste.jpg used on input line 123.
 (pdftex.def)             Requested size: 142.26378pt x 59.11034pt.
-File: brasao-brasil.png Graphic file (type png)
- <use brasao-brasil.png>
-Package pdftex.def Info: brasao-brasil.png used on input line 103.
+File: nao-editar/brasao-brasil.png Graphic file (type png)
+
+<use nao-editar/brasao-brasil.png>
+Package pdftex.def Info: nao-editar/brasao-brasil.png used on input line 123.
 (pdftex.def)             Requested size: 56.9055pt x 57.04855pt.
  [4
 
 
 ]
-\openout2 = `rsc-relatorio-descritivo.aux'.
+\openout2 = `nao-editar/rsc-relatorio-descritivo.aux'.
 
 
-(./rsc-relatorio-descritivo.tex
+(./nao-editar/rsc-relatorio-descritivo.tex
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <17.28> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 4.
 )
-File: logo_ifsudeste.jpg Graphic file (type jpg)
- <use logo_ifsudeste.jpg>
-Package pdftex.def Info: logo_ifsudeste.jpg used on input line 106.
-(pdftex.def)             Requested size: 142.26378pt x 59.11034pt.
-File: brasao-brasil.png Graphic file (type png)
+File: nao-editar/logo_ifsudeste.jpg Graphic file (type jpg)
 
-<use brasao-brasil.png>
-Package pdftex.def Info: brasao-brasil.png used on input line 106.
+<use nao-editar/logo_ifsudeste.jpg>
+Package pdftex.def Info: nao-editar/logo_ifsudeste.jpg used on input line 126.
+(pdftex.def)             Requested size: 142.26378pt x 59.11034pt.
+File: nao-editar/brasao-brasil.png Graphic file (type png)
+ <use nao-editar/brasao-brasil.png>
+Package pdftex.def Info: nao-editar/brasao-brasil.png used on input line 126.
 (pdftex.def)             Requested size: 56.9055pt x 57.04855pt.
  [5
 
 
 ]
-\openout2 = `rsc-relatorio-descritivo-sumario.aux'.
+\openout2 = `nao-editar/rsc-relatorio-descritivo-sumario.aux'.
 
- (./rsc-relatorio-descritivo-sumario.tex (./rsc.toc)
+
+(./nao-editar/rsc-relatorio-descritivo-sumario.tex (./rsc.toc)
 \tf@toc=\write4
 \openout4 = `rsc.toc'.
 
 )
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 113.
+less on input line 133.
 
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 113.
+less on input line 133.
 
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 113.
+less on input line 133.
 
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 113.
+less on input line 133.
 
-File: logo_ifsudeste.jpg Graphic file (type jpg)
-<use logo_ifsudeste.jpg>
-Package pdftex.def Info: logo_ifsudeste.jpg used on input line 113.
+File: nao-editar/logo_ifsudeste.jpg Graphic file (type jpg)
+<use nao-editar/logo_ifsudeste.jpg>
+Package pdftex.def Info: nao-editar/logo_ifsudeste.jpg used on input line 133.
 (pdftex.def)             Requested size: 142.26378pt x 59.11034pt.
-File: brasao-brasil.png Graphic file (type png)
- <use brasao-brasil.png>
-Package pdftex.def Info: brasao-brasil.png used on input line 113.
+File: nao-editar/brasao-brasil.png Graphic file (type png)
+ <use nao-editar/brasao-brasil.png>
+Package pdftex.def Info: nao-editar/brasao-brasil.png used on input line 133.
 (pdftex.def)             Requested size: 56.9055pt x 57.04855pt.
  [1
 
@@ -980,14 +996,14 @@ Package pdftex.def Info: brasao-brasil.png used on input line 113.
 
 
 (./rsc-descricao-itinerario-formacao-titulacao.tex)
-File: logo_ifsudeste.jpg Graphic file (type jpg)
- <use logo_ifsudeste.jpg>
-Package pdftex.def Info: logo_ifsudeste.jpg used on input line 115.
-(pdftex.def)             Requested size: 142.26378pt x 59.11034pt.
-File: brasao-brasil.png Graphic file (type png)
+File: nao-editar/logo_ifsudeste.jpg Graphic file (type jpg)
 
-<use brasao-brasil.png>
-Package pdftex.def Info: brasao-brasil.png used on input line 115.
+<use nao-editar/logo_ifsudeste.jpg>
+Package pdftex.def Info: nao-editar/logo_ifsudeste.jpg used on input line 135.
+(pdftex.def)             Requested size: 142.26378pt x 59.11034pt.
+File: nao-editar/brasao-brasil.png Graphic file (type png)
+ <use nao-editar/brasao-brasil.png>
+Package pdftex.def Info: nao-editar/brasao-brasil.png used on input line 135.
 (pdftex.def)             Requested size: 56.9055pt x 57.04855pt.
  [2
 
@@ -995,15 +1011,16 @@ Package pdftex.def Info: brasao-brasil.png used on input line 115.
 ]
 \openout2 = `rsc-descricao-atuacao-docente.aux'.
 
- (./rsc-descricao-atuacao-docente.tex)
-File: logo_ifsudeste.jpg Graphic file (type jpg)
 
-<use logo_ifsudeste.jpg>
-Package pdftex.def Info: logo_ifsudeste.jpg used on input line 117.
+(./rsc-descricao-atuacao-docente.tex)
+File: nao-editar/logo_ifsudeste.jpg Graphic file (type jpg)
+ <use nao-editar/logo_ifsudeste.jpg>
+Package pdftex.def Info: nao-editar/logo_ifsudeste.jpg used on input line 137.
 (pdftex.def)             Requested size: 142.26378pt x 59.11034pt.
-File: brasao-brasil.png Graphic file (type png)
- <use brasao-brasil.png>
-Package pdftex.def Info: brasao-brasil.png used on input line 117.
+File: nao-editar/brasao-brasil.png Graphic file (type png)
+
+<use nao-editar/brasao-brasil.png>
+Package pdftex.def Info: nao-editar/brasao-brasil.png used on input line 137.
 (pdftex.def)             Requested size: 56.9055pt x 57.04855pt.
  [3
 
@@ -1013,36 +1030,36 @@ Package pdftex.def Info: brasao-brasil.png used on input line 117.
 
 
 (./rsc-indicacao-descricao-producao-academica.tex
-Overfull \hbox (31.53891pt too wide) in paragraph at lines 1--1
+Overfull \hbox (2.7162pt too wide) in paragraph at lines 1--1
 []\T1/phv/b/n/17.28 Indicação e de-scrição de pro-dução acadêmica, técnico-cien
-tífica,
+tí-
  []
 
 )
-File: logo_ifsudeste.jpg Graphic file (type jpg)
- <use logo_ifsudeste.jpg>
-Package pdftex.def Info: logo_ifsudeste.jpg used on input line 119.
+File: nao-editar/logo_ifsudeste.jpg Graphic file (type jpg)
+ <use nao-editar/logo_ifsudeste.jpg>
+Package pdftex.def Info: nao-editar/logo_ifsudeste.jpg used on input line 139.
 (pdftex.def)             Requested size: 142.26378pt x 59.11034pt.
-File: brasao-brasil.png Graphic file (type png)
- <use brasao-brasil.png>
-Package pdftex.def Info: brasao-brasil.png used on input line 119.
+File: nao-editar/brasao-brasil.png Graphic file (type png)
+ <use nao-editar/brasao-brasil.png>
+Package pdftex.def Info: nao-editar/brasao-brasil.png used on input line 139.
 (pdftex.def)             Requested size: 56.9055pt x 57.04855pt.
- [4
+
+[4
 
 
 ]
 \openout2 = `rsc-descricao-atividades-prestacao-servico.aux'.
 
+ (./rsc-descricao-atividades-prestacao-servico.tex)
+File: nao-editar/logo_ifsudeste.jpg Graphic file (type jpg)
 
-(./rsc-descricao-atividades-prestacao-servico.tex)
-File: logo_ifsudeste.jpg Graphic file (type jpg)
- <use logo_ifsudeste.jpg>
-Package pdftex.def Info: logo_ifsudeste.jpg used on input line 121.
+<use nao-editar/logo_ifsudeste.jpg>
+Package pdftex.def Info: nao-editar/logo_ifsudeste.jpg used on input line 141.
 (pdftex.def)             Requested size: 142.26378pt x 59.11034pt.
-File: brasao-brasil.png Graphic file (type png)
-
-<use brasao-brasil.png>
-Package pdftex.def Info: brasao-brasil.png used on input line 121.
+File: nao-editar/brasao-brasil.png Graphic file (type png)
+ <use nao-editar/brasao-brasil.png>
+Package pdftex.def Info: nao-editar/brasao-brasil.png used on input line 141.
 (pdftex.def)             Requested size: 56.9055pt x 57.04855pt.
  [5
 
@@ -1052,14 +1069,14 @@ Package pdftex.def Info: brasao-brasil.png used on input line 121.
 
 
 (./rsc-indicacao-descricao-atividade-administracao.tex)
-File: logo_ifsudeste.jpg Graphic file (type jpg)
+File: nao-editar/logo_ifsudeste.jpg Graphic file (type jpg)
 
-<use logo_ifsudeste.jpg>
-Package pdftex.def Info: logo_ifsudeste.jpg used on input line 123.
+<use nao-editar/logo_ifsudeste.jpg>
+Package pdftex.def Info: nao-editar/logo_ifsudeste.jpg used on input line 143.
 (pdftex.def)             Requested size: 142.26378pt x 59.11034pt.
-File: brasao-brasil.png Graphic file (type png)
- <use brasao-brasil.png>
-Package pdftex.def Info: brasao-brasil.png used on input line 123.
+File: nao-editar/brasao-brasil.png Graphic file (type png)
+ <use nao-editar/brasao-brasil.png>
+Package pdftex.def Info: nao-editar/brasao-brasil.png used on input line 143.
 (pdftex.def)             Requested size: 56.9055pt x 57.04855pt.
  [6
 
@@ -1069,202 +1086,236 @@ Package pdftex.def Info: brasao-brasil.png used on input line 123.
 
 
 (./rsc-indicacao-titulos-premios-aprovacoes.tex)
-File: logo_ifsudeste.jpg Graphic file (type jpg)
- <use logo_ifsudeste.jpg>
-Package pdftex.def Info: logo_ifsudeste.jpg used on input line 125.
-(pdftex.def)             Requested size: 142.26378pt x 59.11034pt.
-File: brasao-brasil.png Graphic file (type png)
+File: nao-editar/logo_ifsudeste.jpg Graphic file (type jpg)
 
-<use brasao-brasil.png>
-Package pdftex.def Info: brasao-brasil.png used on input line 125.
+<use nao-editar/logo_ifsudeste.jpg>
+Package pdftex.def Info: nao-editar/logo_ifsudeste.jpg used on input line 145.
+(pdftex.def)             Requested size: 142.26378pt x 59.11034pt.
+File: nao-editar/brasao-brasil.png Graphic file (type png)
+ <use nao-editar/brasao-brasil.png>
+Package pdftex.def Info: nao-editar/brasao-brasil.png used on input line 145.
 (pdftex.def)             Requested size: 56.9055pt x 57.04855pt.
  [7
 
 
 ]
-\openout2 = `empty/antes-documentacao-probatoria-formacao.aux'.
+\openout2 = `nao-editar/empty/antes-documentacao-probatoria-formacao.aux'.
 
- (./empty/antes-documentacao-probatoria-formacao.tex)
-File: logo_ifsudeste.jpg Graphic file (type jpg)
- <use logo_ifsudeste.jpg>
-Package pdftex.def Info: logo_ifsudeste.jpg used on input line 127.
+
+(./nao-editar/empty/antes-documentacao-probatoria-formacao.tex)
+File: nao-editar/logo_ifsudeste.jpg Graphic file (type jpg)
+
+<use nao-editar/logo_ifsudeste.jpg>
+Package pdftex.def Info: nao-editar/logo_ifsudeste.jpg used on input line 147.
 (pdftex.def)             Requested size: 142.26378pt x 59.11034pt.
-File: brasao-brasil.png Graphic file (type png)
- <use brasao-brasil.png>
-Package pdftex.def Info: brasao-brasil.png used on input line 127.
+File: nao-editar/brasao-brasil.png Graphic file (type png)
+ <use nao-editar/brasao-brasil.png>
+Package pdftex.def Info: nao-editar/brasao-brasil.png used on input line 147.
 (pdftex.def)             Requested size: 56.9055pt x 57.04855pt.
  [8
 
 
 ]
-\openout2 = `rsc-documentacao-probatoria-formacao.aux'.
+\openout2 = `nao-editar/rsc-documentacao-probatoria-formacao.aux'.
 
 
-(./rsc-documentacao-probatoria-formacao.tex
+(./nao-editar/rsc-documentacao-probatoria-formacao.tex
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <20.74> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 7.
 )
-File: logo_ifsudeste.jpg Graphic file (type jpg)
- <use logo_ifsudeste.jpg>
-Package pdftex.def Info: logo_ifsudeste.jpg used on input line 135.
-(pdftex.def)             Requested size: 142.26378pt x 59.11034pt.
-File: brasao-brasil.png Graphic file (type png)
+File: nao-editar/logo_ifsudeste.jpg Graphic file (type jpg)
 
-<use brasao-brasil.png>
-Package pdftex.def Info: brasao-brasil.png used on input line 135.
+<use nao-editar/logo_ifsudeste.jpg>
+Package pdftex.def Info: nao-editar/logo_ifsudeste.jpg used on input line 155.
+(pdftex.def)             Requested size: 142.26378pt x 59.11034pt.
+File: nao-editar/brasao-brasil.png Graphic file (type png)
+ <use nao-editar/brasao-brasil.png>
+Package pdftex.def Info: nao-editar/brasao-brasil.png used on input line 155.
 (pdftex.def)             Requested size: 56.9055pt x 57.04855pt.
  [6
 
 
 ]
-\openout2 = `empty/antes-documentacao-probatoria-rsc-i.aux'.
+\openout2 = `rsc-documentacao-probatoria-formacao-comprovantes.aux'.
 
- (./empty/antes-documentacao-probatoria-rsc-i.tex)
-File: logo_ifsudeste.jpg Graphic file (type jpg)
 
-<use logo_ifsudeste.jpg>
-Package pdftex.def Info: logo_ifsudeste.jpg used on input line 146.
+(./rsc-documentacao-probatoria-formacao-comprovantes.tex)
+\openout2 = `nao-editar/empty/antes-documentacao-probatoria-rsc-i.aux'.
+
+
+(./nao-editar/empty/antes-documentacao-probatoria-rsc-i.tex)
+File: nao-editar/logo_ifsudeste.jpg Graphic file (type jpg)
+
+<use nao-editar/logo_ifsudeste.jpg>
+Package pdftex.def Info: nao-editar/logo_ifsudeste.jpg used on input line 166.
 (pdftex.def)             Requested size: 142.26378pt x 59.11034pt.
-File: brasao-brasil.png Graphic file (type png)
- <use brasao-brasil.png>
-Package pdftex.def Info: brasao-brasil.png used on input line 146.
+File: nao-editar/brasao-brasil.png Graphic file (type png)
+ <use nao-editar/brasao-brasil.png>
+Package pdftex.def Info: nao-editar/brasao-brasil.png used on input line 166.
 (pdftex.def)             Requested size: 56.9055pt x 57.04855pt.
  [1
 
 
+
+
 ]
-\openout2 = `rsc-documentacao-probatoria-rsc-i.aux'.
+\openout2 = `nao-editar/rsc-documentacao-probatoria-rsc-i.aux'.
 
 
-(./rsc-documentacao-probatoria-rsc-i.tex)
-File: logo_ifsudeste.jpg Graphic file (type jpg)
- <use logo_ifsudeste.jpg>
-Package pdftex.def Info: logo_ifsudeste.jpg used on input line 154.
+(./nao-editar/rsc-documentacao-probatoria-rsc-i.tex)
+File: nao-editar/logo_ifsudeste.jpg Graphic file (type jpg)
+
+<use nao-editar/logo_ifsudeste.jpg>
+Package pdftex.def Info: nao-editar/logo_ifsudeste.jpg used on input line 174.
 (pdftex.def)             Requested size: 142.26378pt x 59.11034pt.
-File: brasao-brasil.png Graphic file (type png)
-
-<use brasao-brasil.png>
-Package pdftex.def Info: brasao-brasil.png used on input line 154.
+File: nao-editar/brasao-brasil.png Graphic file (type png)
+ <use nao-editar/brasao-brasil.png>
+Package pdftex.def Info: nao-editar/brasao-brasil.png used on input line 174.
 (pdftex.def)             Requested size: 56.9055pt x 57.04855pt.
  [7
 
 
 ]
-\openout2 = `empty/antes-documentacao-probatoria-rsc-ii.aux'.
+\openout2 = `rsc-documentacao-probatoria-rsc-i-comprovantes.aux'.
 
- (./empty/antes-documentacao-probatoria-rsc-ii.tex)
-File: logo_ifsudeste.jpg Graphic file (type jpg)
 
-<use logo_ifsudeste.jpg>
-Package pdftex.def Info: logo_ifsudeste.jpg used on input line 165.
+(./rsc-documentacao-probatoria-rsc-i-comprovantes.tex)
+\openout2 = `nao-editar/empty/antes-documentacao-probatoria-rsc-ii.aux'.
+
+
+(./nao-editar/empty/antes-documentacao-probatoria-rsc-ii.tex)
+File: nao-editar/logo_ifsudeste.jpg Graphic file (type jpg)
+
+<use nao-editar/logo_ifsudeste.jpg>
+Package pdftex.def Info: nao-editar/logo_ifsudeste.jpg used on input line 185.
 (pdftex.def)             Requested size: 142.26378pt x 59.11034pt.
-File: brasao-brasil.png Graphic file (type png)
- <use brasao-brasil.png>
-Package pdftex.def Info: brasao-brasil.png used on input line 165.
+File: nao-editar/brasao-brasil.png Graphic file (type png)
+ <use nao-editar/brasao-brasil.png>
+Package pdftex.def Info: nao-editar/brasao-brasil.png used on input line 185.
 (pdftex.def)             Requested size: 56.9055pt x 57.04855pt.
  [1
 
 
+
+
 ]
-\openout2 = `rsc-documentacao-probatoria-rsc-ii.aux'.
+\openout2 = `nao-editar/rsc-documentacao-probatoria-rsc-ii.aux'.
 
 
-(./rsc-documentacao-probatoria-rsc-ii.tex)
-File: logo_ifsudeste.jpg Graphic file (type jpg)
- <use logo_ifsudeste.jpg>
-Package pdftex.def Info: logo_ifsudeste.jpg used on input line 173.
+(./nao-editar/rsc-documentacao-probatoria-rsc-ii.tex)
+File: nao-editar/logo_ifsudeste.jpg Graphic file (type jpg)
+
+<use nao-editar/logo_ifsudeste.jpg>
+Package pdftex.def Info: nao-editar/logo_ifsudeste.jpg used on input line 193.
 (pdftex.def)             Requested size: 142.26378pt x 59.11034pt.
-File: brasao-brasil.png Graphic file (type png)
-
-<use brasao-brasil.png>
-Package pdftex.def Info: brasao-brasil.png used on input line 173.
+File: nao-editar/brasao-brasil.png Graphic file (type png)
+ <use nao-editar/brasao-brasil.png>
+Package pdftex.def Info: nao-editar/brasao-brasil.png used on input line 193.
 (pdftex.def)             Requested size: 56.9055pt x 57.04855pt.
  [8
 
 
 ]
-\openout2 = `empty/antes-documentacao-probatoria-rsc-iii.aux'.
+\openout2 = `rsc-documentacao-probatoria-rsc-ii-comprovantes.aux'.
 
- (./empty/antes-documentacao-probatoria-rsc-iii.tex)
-File: logo_ifsudeste.jpg Graphic file (type jpg)
-<use logo_ifsudeste.jpg>
-Package pdftex.def Info: logo_ifsudeste.jpg used on input line 184.
+
+(./rsc-documentacao-probatoria-rsc-ii-comprovantes.tex)
+\openout2 = `nao-editar/empty/antes-documentacao-probatoria-rsc-iii.aux'.
+
+
+(./nao-editar/empty/antes-documentacao-probatoria-rsc-iii.tex)
+File: nao-editar/logo_ifsudeste.jpg Graphic file (type jpg)
+
+<use nao-editar/logo_ifsudeste.jpg>
+Package pdftex.def Info: nao-editar/logo_ifsudeste.jpg used on input line 204.
 (pdftex.def)             Requested size: 142.26378pt x 59.11034pt.
-File: brasao-brasil.png Graphic file (type png)
- <use brasao-brasil.png>
-Package pdftex.def Info: brasao-brasil.png used on input line 184.
+File: nao-editar/brasao-brasil.png Graphic file (type png)
+ <use nao-editar/brasao-brasil.png>
+Package pdftex.def Info: nao-editar/brasao-brasil.png used on input line 204.
 (pdftex.def)             Requested size: 56.9055pt x 57.04855pt.
  [1
 
 
+
+
 ]
-\openout2 = `rsc-documentacao-probatoria-rsc-iii.aux'.
+\openout2 = `nao-editar/rsc-documentacao-probatoria-rsc-iii.aux'.
 
 
-(./rsc-documentacao-probatoria-rsc-iii.tex)
-File: logo_ifsudeste.jpg Graphic file (type jpg)
- <use logo_ifsudeste.jpg>
-Package pdftex.def Info: logo_ifsudeste.jpg used on input line 192.
+(./nao-editar/rsc-documentacao-probatoria-rsc-iii.tex)
+File: nao-editar/logo_ifsudeste.jpg Graphic file (type jpg)
+
+<use nao-editar/logo_ifsudeste.jpg>
+Package pdftex.def Info: nao-editar/logo_ifsudeste.jpg used on input line 212.
 (pdftex.def)             Requested size: 142.26378pt x 59.11034pt.
-File: brasao-brasil.png Graphic file (type png)
-
-<use brasao-brasil.png>
-Package pdftex.def Info: brasao-brasil.png used on input line 192.
+File: nao-editar/brasao-brasil.png Graphic file (type png)
+ <use nao-editar/brasao-brasil.png>
+Package pdftex.def Info: nao-editar/brasao-brasil.png used on input line 212.
 (pdftex.def)             Requested size: 56.9055pt x 57.04855pt.
  [9
 
 
 ]
-\openout2 = `empty/fim-documento.aux'.
+\openout2 = `rsc-documentacao-probatoria-rsc-iii-comprovantes.aux'.
 
- (./empty/fim-documento.tex)
-File: logo_ifsudeste.jpg Graphic file (type jpg)
 
-<use logo_ifsudeste.jpg>
-Package pdftex.def Info: logo_ifsudeste.jpg used on input line 203.
+(./rsc-documentacao-probatoria-rsc-iii-comprovantes.tex)
+\openout2 = `nao-editar/empty/fim-documento.aux'.
+
+
+(./nao-editar/empty/fim-documento.tex)
+File: nao-editar/logo_ifsudeste.jpg Graphic file (type jpg)
+ <use nao-editar/logo_ifsudeste.jpg>
+Package pdftex.def Info: nao-editar/logo_ifsudeste.jpg used on input line 223.
 (pdftex.def)             Requested size: 142.26378pt x 59.11034pt.
-File: brasao-brasil.png Graphic file (type png)
- <use brasao-brasil.png>
-Package pdftex.def Info: brasao-brasil.png used on input line 203.
+File: nao-editar/brasao-brasil.png Graphic file (type png)
+
+<use nao-editar/brasao-brasil.png>
+Package pdftex.def Info: nao-editar/brasao-brasil.png used on input line 223.
 (pdftex.def)             Requested size: 56.9055pt x 57.04855pt.
  [1
 
 
+
+
 ] (./rsc.aux
-(./rsc-variaveis-funcoes.aux) (./rsc-dados.aux) (./rsc-anexo-i.aux)
-(./rsc-anexo-ii.aux) (./rsc-sumario-processo.aux)
-(./rsc-relatorio-descritivo.aux) (./rsc-relatorio-descritivo-sumario.aux)
+(./nao-editar/rsc-variaveis-funcoes.aux) (./rsc-dados.aux)
+(./nao-editar/rsc-anexo-i.aux) (./nao-editar/rsc-anexo-ii.aux)
+(./nao-editar/rsc-sumario-processo.aux)
+(./nao-editar/rsc-relatorio-descritivo.aux)
+(./nao-editar/rsc-relatorio-descritivo-sumario.aux)
 (./rsc-descricao-itinerario-formacao-titulacao.aux)
 (./rsc-descricao-atuacao-docente.aux)
 (./rsc-indicacao-descricao-producao-academica.aux)
 (./rsc-descricao-atividades-prestacao-servico.aux)
 (./rsc-indicacao-descricao-atividade-administracao.aux)
 (./rsc-indicacao-titulos-premios-aprovacoes.aux)
-(./empty/antes-documentacao-probatoria-formacao.aux)
-(./rsc-documentacao-probatoria-formacao.aux)
-(./empty/antes-documentacao-probatoria-rsc-i.aux)
-(./rsc-documentacao-probatoria-rsc-i.aux)
-(./empty/antes-documentacao-probatoria-rsc-ii.aux)
-(./rsc-documentacao-probatoria-rsc-ii.aux)
-(./empty/antes-documentacao-probatoria-rsc-iii.aux)
-(./rsc-documentacao-probatoria-rsc-iii.aux) (./empty/fim-documento.aux))
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+(./nao-editar/empty/antes-documentacao-probatoria-formacao.aux)
+(./nao-editar/rsc-documentacao-probatoria-formacao.aux)
+(./rsc-documentacao-probatoria-formacao-comprovantes.aux)
+(./nao-editar/empty/antes-documentacao-probatoria-rsc-i.aux)
+(./nao-editar/rsc-documentacao-probatoria-rsc-i.aux)
+(./rsc-documentacao-probatoria-rsc-i-comprovantes.aux)
+(./nao-editar/empty/antes-documentacao-probatoria-rsc-ii.aux)
+(./nao-editar/rsc-documentacao-probatoria-rsc-ii.aux)
+(./rsc-documentacao-probatoria-rsc-ii-comprovantes.aux)
+(./nao-editar/empty/antes-documentacao-probatoria-rsc-iii.aux)
+(./nao-editar/rsc-documentacao-probatoria-rsc-iii.aux)
+(./rsc-documentacao-probatoria-rsc-iii-comprovantes.aux)
+(./nao-editar/empty/fim-documento.aux)) ) 
 Here is how much of TeX's memory you used:
- 18321 strings out of 493304
- 313119 string characters out of 6139871
- 497812 words of memory out of 5000000
- 21262 multiletter control sequences out of 15000+600000
+ 18396 strings out of 493304
+ 316653 string characters out of 6139871
+ 501506 words of memory out of 5000000
+ 21303 multiletter control sequences out of 15000+600000
  36566 words of font info for 50 fonts, out of 8000000 for 9000
- 957 hyphenation exceptions out of 8191
+ 958 hyphenation exceptions out of 8191
  56i,19n,55p,809b,587s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/urw/helvetic/uhvr8a.pfb>
-Output written on rsc.pdf (21 pages, 214208 bytes).
+{/usr/share/texlive/texmf-dist/fonts/e
+nc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uh
+vb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
+Output written on rsc.pdf (21 pages, 214207 bytes).
 PDF statistics:
  92 PDF objects out of 1000 (max. 8388607)
  62 compressed objects within 1 object stream
