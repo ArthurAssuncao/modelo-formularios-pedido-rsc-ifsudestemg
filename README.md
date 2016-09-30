@@ -6,6 +6,8 @@ http://www.ifsudestemg.edu.br/sites/default/files/3.%20FORMUL%C3%81RIOS%20PEDIDO
 
 Este modelo em Tex foi desenvolvido por **Arthur Nascimento Assuncao**, servidor do **campus Santos Dumont**.
 
+## Modelo em PDF
+https://github.com/ArthurAssuncao/modelo-formularios-pedido-rsc-ifsudestemg/blob/master/rsc.pdf
 
 ## Motivação
 A motivação foi facilitar o preenchimento do pedido, automatizando algumas tarefas e evitar preenchimento não-digital, como: 
@@ -48,3 +50,4 @@ A motivação foi facilitar o preenchimento do pedido, automatizando algumas tar
 Mais informações sobre o processo de pedido de RSCs em:
 
 http://www.ifsudestemg.edu.br/institucional/docs
+
