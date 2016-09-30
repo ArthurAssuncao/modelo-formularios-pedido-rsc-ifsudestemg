@@ -1,4 +1,8 @@
 rsc-dados-*.tex
 pdfs
 *.aux
+nao-editar/*.aux
+nao-editar/empty/*.aux
 *.log
+*.synctex.gz
+*.toc

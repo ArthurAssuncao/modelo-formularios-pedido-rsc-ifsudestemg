@@ -1,8 +1,0 @@
-\select@language {brazil}
-\select@language {english}
-\contentsline {section}{\numberline {1}Descri\IeC {\c c}\IeC {\~a}o do itiner\IeC {\'a}rio de forma\IeC {\c c}\IeC {\~a}o, aperfei\IeC {\c c}oamento e titula\IeC {\c c}\IeC {\~a}o;}{2}
-\contentsline {section}{\numberline {2}Descri\IeC {\c c}\IeC {\~a}o da atua\IeC {\c c}\IeC {\~a}o docente (ensino, pesquisa, inova\IeC {\c c}\IeC {\~a}o e extens\IeC {\~a}o);}{3}
-\contentsline {section}{\numberline {3}Indica\IeC {\c c}\IeC {\~a}o e descri\IeC {\c c}\IeC {\~a}o de produ\IeC {\c c}\IeC {\~a}o acad\IeC {\^e}mica, t\IeC {\'e}cnico-cient\IeC {\'\i }\hyp {}fica, liter\IeC {\'a}ria e/ou art\IeC {\'\i }stica;}{4}
-\contentsline {section}{\numberline {4}Descri\IeC {\c c}\IeC {\~a}o de atividades de presta\IeC {\c c}\IeC {\~a}o de servi\IeC {\c c}os \IeC {\`a} comunidade;}{5}
-\contentsline {section}{\numberline {5}Indica\IeC {\c c}\IeC {\~a}o e descri\IeC {\c c}\IeC {\~a}o de atividades de administra\IeC {\c c}\IeC {\~a}o;}{6}
-\contentsline {section}{\numberline {6}Indica\IeC {\c c}\IeC {\~a}o de t\IeC {\'\i }tulos, pr\IeC {\^e}mios e/ou aprova\IeC {\c c}\IeC {\~o}es em concursos;}{7}
