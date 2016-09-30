@@ -22,29 +22,27 @@ A motivação foi facilitar o preenchimento do pedido, automatizando algumas tar
 * Os arquivos localizados no diretório "nao-editar" não precisam ser modificados
 * Preencha o arquivo "rsc-dados.tex" com os seus dados.
 * Preencha os arquivos do Relatório Descritivo indicados abaixo:
-* * rsc-descricao-itinerario-formacao-titulacao.tex
-* * rsc-descricao-atuacao-docente.tex
-* * rsc-indicacao-descricao-producao-academica.tex
-* * rsc-descricao-atividades-prestacao-servico.tex
-* * rsc-indicacao-descricao-atividade-administracao.tex
-* * rsc-indicacao-titulos-premios-aprovacoes.tex
+  * rsc-descricao-itinerario-formacao-titulacao.tex
+  * rsc-descricao-atuacao-docente.tex
+  * rsc-indicacao-descricao-producao-academica.tex
+  * rsc-descricao-atividades-prestacao-servico.tex
+  * rsc-indicacao-descricao-atividade-administracao.tex
+  * rsc-indicacao-titulos-premios-aprovacoes.tex
 * Em seguida adicione os PDFs ou imagens dos seus comprovantes utilizando o comando:
-```
-#!tex
+```tex
 
 \incluirpdf{-}{RSC I - 11}{certificado.pdf} % Onde:
 ```
 
-* * {-} numero ou numeros de paginas, '-' para incluir todas as páginas
-* * {RSC I - 11} indicação da pontuação do RSC do comprovante
-* * {certificado.pdf} caminho do pdf/jpg/etc do comprovante
+  * {-} numero ou numeros de paginas, '-' para incluir todas as páginas
+  * {RSC I - 11} indicação da pontuação do RSC do comprovante
+  * {certificado.pdf} caminho do pdf/jpg/etc do comprovante
 * Seus comprovantes (comando \incluirpdf para cada comprovante) devem ficar nos arquivos abaixo:
-* * rsc-documentacao-probatoria-formacao-comprovantes.tex
-* * rsc-documentacao-probatoria-rsc-i-comprovantes.tex
-* * rsc-documentacao-probatoria-rsc-ii-comprovantes.tex
-* * rsc-documentacao-probatoria-rsc-iii-comprovantes.tex
+  * rsc-documentacao-probatoria-formacao-comprovantes.tex
+  * rsc-documentacao-probatoria-rsc-i-comprovantes.tex
+  * rsc-documentacao-probatoria-rsc-ii-comprovantes.tex
+  * rsc-documentacao-probatoria-rsc-iii-comprovantes.tex
 * Gere o PDF e pronto!
-
 
 
 Mais informações sobre o processo de pedido de RSCs em:
