@@ -1,2 +1,4 @@
 rsc-dados-*.tex
 pdfs
+*.aux
+*.log
