@@ -4,11 +4,12 @@ O presente modelo foi baseado no arquivo: "3. FORMULÁRIOS PEDIDO RCS.doc" local
 http://www.ifsudestemg.edu.br/sites/default/files/3.%20FORMUL%C3%81RIOS%20PEDIDO%20RCS.doc
 
 
-Este modelo em Tex foi desenvolvido por *Arthur Nascimento Assuncao*, servidor do *campus Santos Dumont*.
+Este modelo em Tex foi desenvolvido por **Arthur Nascimento Assuncao**, servidor do **campus Santos Dumont**.
 
 
 ## Motivação
 A motivação foi facilitar o preenchimento do pedido, automatizando algumas tarefas e evitar preenchimento não-digital, como: 
+
 * Preenchimento automático das informações do servidor com base em um arquivo separado (rsc-dados.tex)
 * Inclusão de certificados com indicação da pontuação no topo da página (e.g. \incluirpdf{-}{RSC I - 11}{pdfs/certificado.pdf})
 * Páginação com números romanos para seções e arábico dentro das seções (e.g. vi.2)
@@ -38,4 +39,3 @@ A motivação foi facilitar o preenchimento do pedido, automatizando algumas tar
 * * rsc-documentacao-probatoria-rsc-ii-comprovantes
 * * rsc-documentacao-probatoria-rsc-iii-comprovantes
 * Gere o PDF e pronto!
-
