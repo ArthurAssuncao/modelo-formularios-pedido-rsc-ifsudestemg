@@ -31,9 +31,9 @@ A motivação foi facilitar o preenchimento do pedido, automatizando algumas tar
 * Em seguida adicione os PDFs ou imagens dos seus comprovantes utilizando o comando:
 ```tex
 
-\incluirpdf{-}{RSC I - 11}{certificado.pdf} % Onde:
+\incluirpdf{-}{RSC I - 11}{certificado.pdf}
 ```
-
+* Onde:
   * {-} numero ou numeros de paginas, '-' para incluir todas as páginas
   * {RSC I - 11} indicação da pontuação do RSC do comprovante
   * {certificado.pdf} caminho do pdf/jpg/etc do comprovante
