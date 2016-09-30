@@ -10,7 +10,7 @@ Este modelo em Tex foi desenvolvido por **Arthur Nascimento Assuncao**, servidor
 https://github.com/ArthurAssuncao/modelo-formularios-pedido-rsc-ifsudestemg/blob/master/rsc.pdf
 
 ## Motivação
-A motivação foi facilitar o preenchimento do pedido, automatizando algumas tarefas e evitar preenchimento não-digital, como: 
+Facilitar o preenchimento do pedido, automatizando algumas tarefas e evitar preenchimento não-digital, permitindo: 
 
 * Preenchimento automático das informações do servidor e da sua pontuação com base em um arquivo separado (rsc-dados.tex)
 * Inclusão de certificados com indicação da pontuação no topo da página (e.g. \incluirpdf{-}{RSC I - 11}{pdfs/certificado.pdf})
