@@ -61,6 +61,19 @@
 \usepackage{pdfpages} % para incluir pdfs
 \usepackage{refcount}
 \usepackage{hyphenat}
+% inicio highlight
+\usepackage{color,soul} % para usar hl (highlight)
+\soulregister\cite7
+\soulregister\ref7
+\soulregister\pageref7 
+\definecolor{amarelohl}{RGB}{255, 242, 0}
+\newcommand{\hlbox}[1]{\colorbox{amarelohl}{\parbox{0.465\textwidth}{#1}}} %criacao do comando hlbox para hl in equacoes
+%% remove os highlight(\hl) e riscado(\st) e o q eu criei \hlbox
+%\renewcommand{\hl}[1]{#1}
+%\renewcommand{\st}[1]{}
+%\renewcommand{\hlbox}[1]{#1}
+%% fim remove os highlight(hl) e riscado(st)
+% fim highlight
 
 \hyphenation{t\'{e}-cni-co-ci-en-t\'{i}-fi-ca}
 
