@@ -32,9 +32,7 @@
 
 \cftsetpnumwidth{1.0cm}
 
-\renewcommand{\cftsecdotsep}{\cftdotsep}
-\renewcommand{\cftsecleader}{\normalfont\cftdotfill{\cftsecdotsep}}
-
+\pagestyle{fancy}
 
 \renewcommand{\baselinestretch}{1.5}
 
@@ -46,66 +44,6 @@
 \addto\captionsenglish{%
 	\renewcommand{\contentsname}%
 		{Sumário Relatório Descritivo}
-}
-
-\pagestyle{fancy}
-
-\makeatletter
-\newcommand\Rodape[1]{\def\@Rodape{#1}}
-
-\fancyhead[LE,LO]{}
-\fancyhead[CE,CO]{}
-\fancyhead[RE,RO]{}
-\fancyhead[LE,LO]{\includegraphics[width=5cm]{nao-editar/logo_ifsudeste.jpg}\hfill\includegraphics[width=2cm]{nao-editar/brasao-brasil.png}\\{\large \textbf{FORMULÁRIOS RECONHECIMENTO DE SABERES E COMPETÊNCIAS – RSC}}}
-\setlength\headheight{80pt}
-%\renewcommand{\headrulewidth}{0pt}
-%\renewcommand{\headrulewidth}{0.4pt}
-%\renewcommand{\footrulewidth}{0.4pt}
-
-\fancyfoot{}
-% numeracao a direita
-\Rodape{\thepage}
-\fancyfoot[R]{\@Rodape}
-
-% para o fancy funcionar na pagina com tableofcontents
-\fancypagestyle{plain}{%
-	\fancyhf{}
-	\fancyhead[LE,LO]{}
-	\fancyhead[CE,CO]{}
-	\fancyhead[RE,RO]{}
-	\fancyhead[LE,LO]{\includegraphics[width=5cm]{nao-editar/logo_ifsudeste.jpg}\hfill\includegraphics[width=2cm]{nao-editar/brasao-brasil.png}\\{\large 					\textbf{FORMULÁRIOS RECONHECIMENTO DE SABERES E COMPETÊNCIAS – RSC}}}
-	\setlength\headheight{80pt}
-	%\renewcommand{\headrulewidth}{0pt}
-	%\renewcommand{\headrulewidth}{0.4pt}
-	%\renewcommand{\footrulewidth}{0.4pt}
-	\fancyfoot{}
-	\fancyfoot[R]{\@Rodape}
-}
-
-\newcommand\IndicacaoPontuacaoRSC[1]{\def\@IndicacaoPontuacaoRSC{#1}}
-
-% para o fancy funcionar na pagina com tableofcontents
-\fancypagestyle{plainpdf}{%
-	\fancyhf{}
-	\fancyhead[LE,LO]{}
-	\fancyhead[CE,CO]{}
-	\fancyhead[RE,RO]{}
-	\fancyhead[RE,RO]{\textbf{{\Large \@IndicacaoPontuacaoRSC}}}
-	\renewcommand{\headrulewidth}{0pt}
-	\fancyfoot{}
-	\fancyfoot[R]{\@Rodape}
-	%\setlength\headheight{0pt}
-	\newgeometry{bindingoffset=0in,left=0.5in,right=0.5in,top=1in,bottom=1in,footskip=1.45in}
-	%fancyhfoffset[E,O]{0pt}
-}
-
-\newcommand{\nada}{
-	{\color{white}NADA}
-}
-
-\newcommand{\incluirpdf}[3]{
-	\IndicacaoPontuacaoRSC{#2}
-	\includepdf[pages=#1, offset=0 -50, pagecommand={\thispagestyle{plainpdf}}]{#3}
 }
 
 \begin{document}
