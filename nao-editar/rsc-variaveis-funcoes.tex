@@ -70,11 +70,11 @@
 	\subtrair{\getpagerefnumber{fim-#1}}{1}
 }
 
-\newcommand{\incluirpdf}[3]{
-	\IndicacaoPontuacaoRSC{#2}
-	\label{inicio-#3}
-	\includepdf[pages=#1, scale=0.9, clip, offset=0 0, pagecommand={\thispagestyle{plainpdf}}]{#3}
-	\label{fim-#3}
+\newcommand{\incluirpdf}[4]{
+	\IndicacaoPontuacaoRSC{#3}
+	\label{inicio-#4}
+	\includepdf[pages=#1, scale=0.9, clip, offset=0 0, angle=#2, pagecommand={\thispagestyle{plainpdf}}]{#4}
+	\label{fim-#4}
 }
 
 % \addtabelaindicacaocomprovante{RSC III}{VII}{145}{ix - 30 a ix - 33}
