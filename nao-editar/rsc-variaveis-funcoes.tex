@@ -82,15 +82,9 @@
 \end{table}
 }
 
-% \addcaixa{}
-\newcommand{\addcaixa}[4]{
-	\begin{table}[ht]
-		\begin{tabular}{|c|}
-			\hline
-			#1
-			\hline
-		\end{tabular}
-	\end{table}
+% \addcaixatexto{}
+\newcommand{\addcaixatexto}[1]{
+	\framebox[\textwidth][c]{#1}
 }
 
 % define variaveis
