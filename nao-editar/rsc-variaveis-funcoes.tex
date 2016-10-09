@@ -50,6 +50,14 @@
 	%fancyhfoffset[E,O]{0pt}
 }
 
+\newcommand{\diferencapagina}[2]{%
+	\number\numexpr\getpagerefnumber{#1}-#2\relax
+}
+
+\newcommand{\subtrair}[2]{%
+	#1-#2\relax
+}
+
 \newcommand{\nada}{
 	{\color{white}NADA}
 }
@@ -135,7 +143,3 @@
 \newtoks\rsciiipontosvii
 \newtoks\rsciiipontostotal
 
-% FUNCOES
-\newcommand{\diferencapagina}[2]{%
-\number\numexpr\getpagerefnumber{#1}-#2\relax
-}
