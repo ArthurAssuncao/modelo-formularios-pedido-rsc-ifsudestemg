@@ -73,7 +73,7 @@
 \newcommand{\incluirpdf}[3]{
 	\IndicacaoPontuacaoRSC{#2}
 	\label{inicio-#3}
-	\includepdf[pages=#1, offset=0 -50, pagecommand={\thispagestyle{plainpdf}}]{#3}
+	\includepdf[pages=#1, scale=0.9, clip, offset=0 0, pagecommand={\thispagestyle{plainpdf}}]{#3}
 	\label{fim-#3}
 }
 
