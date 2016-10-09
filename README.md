@@ -48,8 +48,8 @@ Facilitar o preenchimento do pedido, automatizando algumas tarefas e evitando pr
 ```
 * Onde:
   * {-} numero ou numeros de paginas, '-' para incluir todas as páginas.
-  * {RSC I - 11} indicação da pontuação do RSC do comprovante.
   * {0} angulo do certificado, 0 para não alterar, 90 para rotacionar 90° para direita.
+  * {RSC I - 11} indicação da pontuação do RSC do comprovante.
   * {certificado.pdf} caminho do pdf/jpg/etc do comprovante.
 * Seus comprovantes (comando \incluirpdf para cada comprovante) devem ficar nos arquivos abaixo:
   * rsc-documentacao-probatoria-formacao-comprovantes.tex
