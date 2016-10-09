@@ -55,18 +55,21 @@
 }
 
 \newcommand{\subtrair}[2]{%
-	#1-#2\relax
+	\newcount\cnt%
+	\cnt=#1%
+	\advance\cnt by -#2%
+	\the\cnt
 }
 
 \newcommand{\nada}{
 	{\color{white}NADA}
 }
 
-\newcommand{\paginainicialpdf}[1]{
+\newcommand{\paginainicialpdf}[1]{%
 	\pageref{inicio-#1}
 }
 
-\newcommand{\paginafinalpdf}[1]{
+\newcommand{\paginafinalpdf}[1]{%
 	\subtrair{\pageref{fim-#1}}{1}
 }
 
