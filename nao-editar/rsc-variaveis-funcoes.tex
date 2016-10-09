@@ -55,10 +55,7 @@
 }
 
 \newcommand{\subtrair}[2]{%
-	\newcount\cnt%
-	\cnt=#1%
-	\advance\cnt by -#2%
-	\the\cnt
+	\number\numexpr#1-#2\relax
 }
 
 \newcommand{\nada}{
@@ -70,7 +67,7 @@
 }
 
 \newcommand{\paginafinalpdf}[1]{%
-	\subtrair{\pageref{fim-#1}}{1}
+	\subtrair{\getpagerefnumber{fim-#1}}{1}
 }
 
 \newcommand{\incluirpdf}[3]{
