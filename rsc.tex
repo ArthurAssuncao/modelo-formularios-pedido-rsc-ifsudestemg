@@ -40,10 +40,19 @@
             left=0.5in,right=0.5in,top=1in,bottom=2in,%
             footskip=.5in]{geometry}
 \usepackage[brazil]{babel}
-%\usepackage[utf8]{inputenc}
-\usepackage[utf8x]{inputenc}
-\usepackage[T1]{fontenc}
-\usepackage{lipsum}%% a garbage package you don't need except to create examples.
+\usepackage{iftex}
+\ifPDFTeX
+   \usepackage[utf8]{inputenc}
+   \usepackage[T1]{fontenc}
+   \usepackage{lmodern}
+\else
+   \ifXeTeX
+     \usepackage{fontspec}
+   \else 
+     \usepackage{luatextra}
+   \fi
+   \defaultfontfeatures{Ligatures=TeX}
+\fi
 \usepackage{fancyhdr}
 %\usepackage{graphicx}
 %\usepackage{xcolor}
