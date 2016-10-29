@@ -12,6 +12,12 @@ https://github.com/ArthurAssuncao/modelo-formularios-pedido-rsc-ifsudestemg/blob
 ## Download do modelo
 https://github.com/ArthurAssuncao/modelo-formularios-pedido-rsc-ifsudestemg/archive/master.zip
 
+## Instalação do Tex e TexStudio no Linux
+Execute no terminal o seguinte comando:
+```tex
+# apt-get install texlive-latex-base texlive-latex-extra texlive-bibtex-extra texlive-fonts-recommended texlive-lang-portuguese texstudio
+```
+
 ## Motivação
 Facilitar o preenchimento do pedido, automatizando algumas tarefas e evitando preenchimento não-digital, permitindo assim: 
 
