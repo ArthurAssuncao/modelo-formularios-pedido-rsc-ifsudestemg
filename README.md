@@ -32,7 +32,7 @@ Facilitar o preenchimento do pedido, automatizando algumas tarefas e evitando pr
 ## Como usar:
 * Os arquivos localizados no diretório "nao-editar" não precisam ser modificados.
 * Preencha o arquivo "rsc-dados.tex" com os seus dados.
-* Adicionar o pdf da planilha de simulação no arquivo:
+* Adicionar o pdf da planilha de simulação no arquivo (ao gerar o PDF, remova o rodapé, pois o modelo já inclui a indicação de página no rodapé das páginas):
   * rsc-planilha-simulacao.tex
 * Preencha os arquivos do Relatório Descritivo indicados abaixo:
   * rsc-descricao-itinerario-formacao-titulacao.tex
