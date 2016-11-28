@@ -32,7 +32,7 @@ Facilitar o preenchimento do pedido, automatizando algumas tarefas e evitando pr
 ## Como usar:
 * Os arquivos localizados no diretório "nao-editar" não precisam ser modificados.
 * Preencha o arquivo "rsc-dados.tex" com os seus dados.
-* Adicionar o pdf da planilha de simulação no arquivo:
+* Adicionar o pdf da planilha de simulação no arquivo (ao gerar o PDF, remova o rodapé, pois o modelo já inclui a indicação de página no rodapé das páginas):
   * rsc-planilha-simulacao.tex
 * Preencha os arquivos do Relatório Descritivo indicados abaixo:
   * rsc-descricao-itinerario-formacao-titulacao.tex
@@ -64,9 +64,11 @@ Facilitar o preenchimento do pedido, automatizando algumas tarefas e evitando pr
   * rsc-documentacao-probatoria-rsc-iii-comprovantes.tex
 * Gere o PDF e pronto!
 * Deu erro em algum pacote? Use um dos pacotes que tem na pasta "sty", basta copiar o arquivo para a pasta raiz ou mudar o usepackage, exemplo:
-  * \usepackage{tocloft}
-  * para
-  * \usepackage{sty/tocloft}
+```tex
+\usepackage{tocloft}
+para
+\usepackage{sty/tocloft}
+```
 * Gere o PDF de novo e pronto. Finalmente!!!
 
 
