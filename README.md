@@ -64,9 +64,11 @@ Facilitar o preenchimento do pedido, automatizando algumas tarefas e evitando pr
   * rsc-documentacao-probatoria-rsc-iii-comprovantes.tex
 * Gere o PDF e pronto!
 * Deu erro em algum pacote? Use um dos pacotes que tem na pasta "sty", basta copiar o arquivo para a pasta raiz ou mudar o usepackage, exemplo:
-  * \usepackage{tocloft}
-  * para
-  * \usepackage{sty/tocloft}
+```tex
+\usepackage{tocloft}
+para
+\usepackage{sty/tocloft}
+```
 * Gere o PDF de novo e pronto. Finalmente!!!
 
 
