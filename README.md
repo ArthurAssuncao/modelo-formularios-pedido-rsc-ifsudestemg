@@ -12,7 +12,19 @@ https://github.com/ArthurAssuncao/modelo-formularios-pedido-rsc-ifsudestemg/blob
 ## Download do modelo
 https://github.com/ArthurAssuncao/modelo-formularios-pedido-rsc-ifsudestemg/archive/master.zip
 
-## Instalação do Tex e TexStudio no Linux
+## Instalação
+
+### Instalação no Windows
+
+#### Baixe o TexLive (preferível) ou MikTex
+[TexLive - Baixe o install-tl-windows.exe](http://tug.org/texlive/acquire-netinstall.html)
+
+[MikTex - Baixe o Basic MiKTeX Installer ou MiKTeX Net Installer e também o MiKTeX Setup Utility](https://miktex.org/download)
+
+#### Baixe o editor Tex, o TexStudio
+[TexStudio](http://texstudio.sourceforge.net/#download)
+
+### Instalação do Tex e TexStudio no Linux
 Execute no terminal o seguinte comando:
 ```tex
 # apt-get install texlive-latex-base texlive-latex-extra texlive-bibtex-extra texlive-fonts-recommended texlive-lang-portuguese texstudio
