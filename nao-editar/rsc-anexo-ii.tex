@@ -9,7 +9,7 @@
 	%\begin{adjustwidth}{-0.18in}{}
 	\begin{tabular}{|l|}
 		\hline
-		\makebox[1\textwidth]{\makecell[l]{Nome do servidor:\\\the\nomeservidor} \hfill \makecell[l]{Data de Nascimento:\\\the\datanascimento}}\\
+		\makebox[1\textwidth]{\makecell[l]{Nome do servidor\expandafter\ifstrequal\expandafter{\the\genero}{feminino}{(a)}{}:\\\the\nomeservidor} \hfill \makecell[l]{Data de Nascimento:\\\the\datanascimento}}\\
 		\hline
 		\makebox[1\textwidth]{
 			\makecell[l]{SIAPE:\\\the\siape} \hfill \makecell[l]{Classe:\\\the\classe}
@@ -26,11 +26,11 @@
 	%\end{adjustwidth}	
 \end{table}
 
-Eu \textbf{\underline{\the\nomeservidor}}, professor da carreira de Ensino Básico, Técnico e Tecnológico (EBTT), SIAPE \textbf{\underline{\the\siape}}, CPF \textbf{\underline{\the\cpf}}, após realização de retrospecto das minhas atividades profissionais e do arrolamento de dados preenchidos apresento à Comissão Especial de Avaliação de RSC o quadro abaixo sintetizando a pontuação obtida com minhas atividades.
+Eu \textbf{\underline{\the\nomeservidor}}, professor\expandafter\ifstrequal\expandafter{\the\genero}{feminino}{a}{} da carreira de Ensino Básico, Técnico e Tecnológico (EBTT), SIAPE \textbf{\underline{\the\siape}}, CPF \textbf{\underline{\the\cpf}}, após realização de retrospecto das minhas atividades profissionais e do arrolamento de dados preenchidos apresento à Comissão Especial de Avaliação de RSC o quadro abaixo sintetizando a pontuação obtida com minhas atividades.
 \\
 \begin{table}[ht]
 	\centering
-	\caption*{RSC I - Resumo das atividades desempenhadas}
+	\caption*{RSC I - Descrição sucinta das atividades desempenhadas}
 	\begin{tabular}{|c|c|c|c|}
 		\hline
 		Diretriz & \makecell{Pontuação Obtida} & Peso & \makecell{Pontuação Máxima}\\

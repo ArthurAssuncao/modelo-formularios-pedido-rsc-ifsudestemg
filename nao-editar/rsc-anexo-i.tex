@@ -10,9 +10,9 @@
 	%\begin{adjustwidth}{-0.18in}{}
 	\begin{tabular}{|l|}
 		\hline
-		\makebox[1\textwidth]{\makecell[l]{Nome do servidor:\\\the\nomeservidor} \hfill \makecell[l]{Data de Nascimento:\\\the\datanascimento}}\\
+		\makebox[1\textwidth]{\makecell[l]{Nome do servidor\expandafter\ifstrequal\expandafter{\the\genero}{feminino}{(a)}{}:\\\the\nomeservidor} \hfill \makecell[l]{Data de Nascimento:\\\the\datanascimento}}\\
 		\hline
-		\makebox[1\textwidth]{\makecell[l]{Email institucional:\\\the\email}}\\
+		\makebox[1\textwidth]{\makecell[l]{E-mail institucional:\\\the\email}}\\
 		\hline
 		\makebox[1\textwidth]{
 			\makecell[l]{SIAPE:\\\the\siape} \hfill \makecell[l]{Classe:\\\the\classe}
@@ -39,7 +39,7 @@
 \end{table}
 
 
-Eu \textbf{\underline{\the\nomeservidor}}, professor da carreira de Ensino Básico, Técnico e Tecnológico (EBTT), SIAPE \textbf{\underline{\the\siape}}, CPF \textbf{\underline{\the\cpf}}, venho solicitar à Subcomissão Permanente de Pessoal Docente do campus \textbf{\underline{\the\campus}}, do IF Sudeste MG o recebimento e o encaminhamento do meu relatório para fins de Concessão de RSC conforme na Lei nº 12.772, de 28/12/2012, na Lei nº 12.863, de 24/09/2013.
+Eu \textbf{\underline{\the\nomeservidor}}, professor\expandafter\ifstrequal\expandafter{\the\genero}{feminino}{a}{} da carreira de Ensino Básico, Técnico e Tecnológico (EBTT), SIAPE \textbf{\underline{\the\siape}}, CPF \textbf{\underline{\the\cpf}}, venho solicitar à Subcomissão Permanente de Pessoal Docente do campus \textbf{\underline{\the\campus}}, do IF Sudeste MG o recebimento e o encaminhamento do meu relatório para fins de Concessão de RSC conforme na Lei nº 12.772, de 28/12/2012, na Lei nº 12.863, de 24/09/2013.
 \\
 \\
 Data: \underline{\hspace{0.3in}} / \underline{\hspace{0.3in}} / \underline{\hspace{0.3in}}
