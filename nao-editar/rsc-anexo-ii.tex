@@ -110,7 +110,7 @@ Eu \textbf{\underline{\the\nomeservidor}}, professor\expandafter\ifstrequal\expa
 	\end{tabular}
 \end{table}
 
-Em síntese, a pontuação obtida no nível RSC pretendido foi \rsciiipontostotal \space pontos e a pontuação total obtida foi \rscpontostotal \space pontos.
+Em síntese, a pontuação obtida no nível RSC pretendido foi \ifnum\the\rscpretendida=1 \rscipontostotal\else \ifnum\the\rscpretendida=2 \rsciipontostotal\else \ifnum\the\rscpretendida=3 \rsciiipontostotal \fi \fi \fi \space pontos e a pontuação total obtida foi \rscpontostotal \space pontos.
 \\
 Data: \underline{\hspace{0.3in}} / \underline{\hspace{0.3in}} / \underline{\hspace{0.3in}}
 \\
