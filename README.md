@@ -44,7 +44,7 @@ Facilitar o preenchimento do pedido, automatizando algumas tarefas e evitando pr
 ## Como usar:
 * Os arquivos localizados no diretório "nao-editar" não precisam ser modificados.
 * Preencha o arquivo "rsc-dados.tex" com os seus dados e não se esqueça de descomentar (tirar o % do início da linha do "rsc-dados.tex") o comando \removercomentarios{} quando finalizar o preenchimendo do modelo.
-* Adicionar o pdf da planilha de simulação no arquivo (ao gerar o PDF, remova o rodapé, pois o modelo já inclui a indicação de página no rodapé das páginas):
+* Adicionar o pdf da planilha de simulação no arquivo com o nome "planilha.pdf" (ao gerar o PDF, remova o rodapé [formatar > página > rodapé > ativar rodapé], pois o modelo já inclui a indicação de página no rodapé das páginas). Configure a impressão para remover a primeira planilha do arquivo e para não cortar as tabelas da planilha (Configure isso em visualizar impressão);
   * rsc-planilha-simulacao.tex
 * Preencha os arquivos do Relatório Descritivo indicados abaixo:
   * rsc-descricao-itinerario-formacao-titulacao.tex
